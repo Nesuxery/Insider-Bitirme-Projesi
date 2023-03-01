@@ -13,9 +13,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 html{
+    font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
@@ -26,8 +29,30 @@ html{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
     background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3rem 9%;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.header .logo span{
+    color: var(--yellow);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color: var(--yellow);
 }
