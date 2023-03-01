@@ -14,3 +14,9 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
