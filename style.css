@@ -32,6 +32,10 @@ html{
     color: var(--black);
 }
 
+.btn:hover{
+    background-color: var(--yellow);
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -67,4 +71,5 @@ html{
 
 .header #login-btn i{
     font-size: 2.5rem;
+    color: var();
 }
