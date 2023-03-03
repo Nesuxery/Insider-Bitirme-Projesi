@@ -24,6 +24,14 @@ html{
     scroll-behavior: smooth;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -55,4 +63,8 @@ html{
 
 .header .navbar a:hover{
     color: var(--yellow);
+}
+
+.header #login-btn i{
+    font-size: 2.5rem;
 }
