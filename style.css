@@ -73,3 +73,44 @@ html{
     font-size: 2.5rem;
     color: var();
 }
+
+/* Home Section Start */
+
+.buton{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.buton:hover{
+    background: var(--yellow);
+}
+
+.home{
+    padding-top: 10rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.home h1{
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home img{
+    width: 100%;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+
+/* Home Section End */
