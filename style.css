@@ -79,14 +79,14 @@ html{
 
 .buton{
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 10px;
     border-radius: .5rem;
     background: var(--light-yellow);
     color: var(--black);
     font-weight: 500;
     font-size: 1.7rem;
     cursor: pointer;
-    padding: .8rem 3rem;
+    padding: .8rem 30px;
 }
 
 .buton:hover{
@@ -114,6 +114,7 @@ section{
 }
 
 /* Home Section End */
+
 
 /* Icons Start */
 
@@ -170,4 +171,69 @@ section{
 .icons-container .icons:hover .content p{
     color: #eee;
 }
-/* Icons End */
+/****************** Icons End **************/
+
+
+/**************** Vehicles Start *******************/
+.heading{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    color: var(--black);
+}
+
+.vehicles .vehicles-{
+    padding-bottom: 50px;
+}
+
+.vehicles .vehicles- .box{
+    text-align: center;
+}
+
+.vehicles .vehicles- .box img{
+    width: 500px;
+}
+
+.vehicles .vehicles- .box .content h3{
+    font-size: 25px;
+    color: var(--black);
+}
+
+.vehicles .vehicles- .box .content .price{
+    font-size: 25px;
+    color: var(--yellow);
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+.vehicles .vehicles- .box .content .price span{
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+}
+
+.vehicles .vehicles- .box .content p{
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    color: #666;
+}
+
+.vehicles .vehicles- .box .content p span{
+    font-size: 10px;
+    padding: 0 2px;
+    color: var(--yellow);
+}
+
+.vehicles .vehicles- .box .content  .btnn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+/***************** Vehicles End *******************/
