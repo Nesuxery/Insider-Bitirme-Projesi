@@ -237,3 +237,51 @@ section{
     padding: .8rem 3rem;
 }
 /***************** Vehicles End *******************/
+
+
+/*********** Services Start *************/
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+}
+
+.services .box-container .box{
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+.services .box-container .box .btnn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.services .box-container .box i{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    background: var(--yellow);
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.services .box-container .box h3{
+    font-size: 25px;
+}
+
+.services .box-container .box p{
+    font-size: 14px;
+    color: var(--light-color);
+}
+/************* Services End *************/
