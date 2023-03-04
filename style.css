@@ -26,8 +26,8 @@ html{
 
 .btn{
     display: inline-block;
-    margin-top: 1rem;
-    border-radius: .5rem;
+    margin-top: 10px;
+    border-radius: 50px;
     background: var(--light-yellow);
     color: var(--black);
 }
@@ -46,7 +46,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 9%;
+    padding: 30px 9%;
 }
 
 .header .logo{
@@ -114,3 +114,60 @@ section{
 }
 
 /* Home Section End */
+
+/* Icons Start */
+
+.icons-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 15px;
+    background: #eee;
+}
+
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.icons-container .icons i{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 50px;
+    background: #eee;
+    text-align: center;
+}
+
+.icons-container .icons .content h3{
+    color: var(--yellow);
+    font-size: 25px;
+}
+
+.icons-container .icons .content p{
+    color: var(--black);
+    font-size: 15px;
+}
+
+.icons-container .icons:hover{
+    background: var(--black);
+}
+
+.icons-container .icons:hover i{
+    background: var(--yellow);
+}
+
+.icons-container .icons:hover .content h3{
+    color: #fff;
+}
+
+.icons-container .icons:hover .content p{
+    color: #eee;
+}
+/* Icons End */
