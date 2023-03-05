@@ -4,7 +4,6 @@
     --yellow:#f9d806;
     --light-yellow:#ffee80;
     --black:#130f40;
-    --light-color:#666;
 }
 
 *{
@@ -75,7 +74,7 @@ html{
 }
 
 
-/* Home Section Start */
+/************** Home Section Start *************/
 
 .buton{
     display: inline-block;
@@ -113,10 +112,10 @@ section{
     padding: 2rem 9%;
 }
 
-/* Home Section End */
+/**************** Home Section End ****************/
 
 
-/* Icons Start */
+/**************** Icons Start *******************/
 
 .icons-container{
     padding-top: 50px;
@@ -183,6 +182,9 @@ section{
 }
 
 .vehicles .vehicles-{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
     padding-bottom: 50px;
 }
 
@@ -256,14 +258,14 @@ section{
 
 .services .box-container .box .btnn{
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 10px;
     border-radius: .5rem;
     background: var(--light-yellow);
     color: var(--black);
     font-weight: 500;
     font-size: 1.7rem;
     cursor: pointer;
-    padding: .8rem 3rem;
+    padding: .8rem 30px;
 }
 
 .services .box-container .box i{
@@ -282,6 +284,54 @@ section{
 
 .services .box-container .box p{
     font-size: 14px;
-    color: var(--light-color);
+    color: #666;
 }
 /************* Services End *************/
+
+
+/*************** Car pArts Start ******************/
+
+.car-parts .parts-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+}
+
+.car-parts .parts-container .box{
+    padding: 20px;
+    border: 1px solid;
+}
+
+.car-parts .parts-container .part img{
+    width: 200px;
+    height: 190px;
+    margin-left: 140px;
+}
+
+.car-parts .parts-container .part .btnn{
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 30px;
+    margin-left: 160px;
+}
+
+.car-parts .parts-container .part h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.car-parts .parts-container .part p{
+    color: var(--yellow);
+    font-size: 20px;
+    text-align: center;
+}
+
+.car-parts .heading{
+    margin-top: 50px;
+}
+/* Car pArts End */
