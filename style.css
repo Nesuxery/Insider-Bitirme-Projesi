@@ -12,7 +12,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    outline: none;
     border: none;
 }
 
@@ -335,3 +334,40 @@ section{
     margin-top: 50px;
 }
 /* Car pArts End */
+
+
+/* Footer Start */
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 50px;
+    margin-left: 290px;
+}
+
+.footer{
+    background: black;
+}
+
+
+.footer .box-container h3{
+    color: #fff;
+    font-size: 25px;    
+    padding: 10px 0;
+}
+
+.footer .box-container a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    display: flex;
+}
+
+.footer .cr{
+    color: yellow;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Footer End */
