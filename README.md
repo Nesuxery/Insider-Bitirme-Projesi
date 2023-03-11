@@ -4,7 +4,8 @@
 
 # Car Selling Website
 
-Bu 
+Araba Satış sitesi, birçok markanın sıfır araçları, araç parçalarını güvenli ve kolay bir şekilde
+satmayı hedefler.
 
 ## Yükleme 
 
