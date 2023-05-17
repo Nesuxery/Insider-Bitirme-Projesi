@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
-    --yellow:#f9d806;
-    --light-yellow:#ffee80;
-    --black:#130f40;
+:root {
+    --yellow: #f9d806;
+    --light-yellow: #ffee80;
+    --black: #130f40;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,14 +15,14 @@
     border: none;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 10px;
     border-radius: 50px;
@@ -30,11 +30,11 @@ html{
     color: var(--black);
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--yellow);
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -47,27 +47,27 @@ html{
     padding: 30px 9%;
 }
 
-.header .logo{
+.header .logo {
     font-size: 2.5rem;
     color: var(--black);
     font-weight: bolder;
 }
 
-.header .logo span{
+.header .logo span {
     color: var(--yellow);
 }
 
-.header .navbar a{
+.header .navbar a {
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
 }
 
-.header .navbar a:hover{
+.header .navbar a:hover {
     color: var(--yellow);
 }
 
-.header #login-btn i{
+.header #login-btn i {
     font-size: 2.5rem;
     color: var();
 }
@@ -75,7 +75,7 @@ html{
 
 /************** Home Section Start *************/
 
-.buton{
+.buton {
     display: inline-block;
     margin-top: 10px;
     border-radius: .5rem;
@@ -87,27 +87,27 @@ html{
     padding: .8rem 30px;
 }
 
-.buton:hover{
+.buton:hover {
     background: var(--yellow);
 }
 
-.home{
+.home {
     padding-top: 10rem;
     text-align: center;
     overflow-x: hidden;
 }
 
-.home h1{
+.home h1 {
     font-size: 7.5rem;
     text-transform: uppercase;
     color: var(--black);
 }
 
-.home img{
+.home img {
     width: 100%;
 }
 
-section{
+section {
     padding: 2rem 9%;
 }
 
@@ -116,7 +116,7 @@ section{
 
 /**************** Icons Start *******************/
 
-.icons-container{
+.icons-container {
     padding-top: 50px;
     padding-bottom: 50px;
     display: grid;
@@ -125,7 +125,7 @@ section{
     background: #eee;
 }
 
-.icons-container .icons{
+.icons-container .icons {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -134,7 +134,7 @@ section{
     border-radius: 5px;
 }
 
-.icons-container .icons i{
+.icons-container .icons i {
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -144,90 +144,91 @@ section{
     text-align: center;
 }
 
-.icons-container .icons .content h3{
+.icons-container .icons .content h3 {
     color: var(--yellow);
     font-size: 25px;
 }
 
-.icons-container .icons .content p{
+.icons-container .icons .content p {
     color: var(--black);
     font-size: 15px;
 }
 
-.icons-container .icons:hover{
+.icons-container .icons:hover {
     background: var(--black);
 }
 
-.icons-container .icons:hover i{
+.icons-container .icons:hover i {
     background: var(--yellow);
 }
 
-.icons-container .icons:hover .content h3{
+.icons-container .icons:hover .content h3 {
     color: #fff;
 }
 
-.icons-container .icons:hover .content p{
+.icons-container .icons:hover .content p {
     color: #eee;
 }
+
 /****************** Icons End **************/
 
 
 /**************** Vehicles Start *******************/
-.heading{
+.heading {
     text-align: center;
     padding-bottom: 20px;
     font-size: 45px;
     color: var(--black);
 }
 
-.vehicles .vehicles-{
+.vehicles .vehicles- {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     padding-bottom: 50px;
 }
 
-.vehicles .vehicles- .box{
+.vehicles .vehicles- .box {
     text-align: center;
     height: 550px;
 }
 
-.vehicles .vehicles- .box img{
+.vehicles .vehicles- .box img {
     width: 500px;
 }
 
-.vehicles .vehicles- .box .content h3{
+.vehicles .vehicles- .box .content h3 {
     font-size: 25px;
     color: var(--black);
 }
 
-.vehicles .vehicles- .box .content .price{
+.vehicles .vehicles- .box .content .price {
     font-size: 25px;
     color: var(--yellow);
     padding: 10px 0;
     font-weight: bolder;
 }
 
-.vehicles .vehicles- .box .content .price span{
+.vehicles .vehicles- .box .content .price span {
     font-size: 16px;
     color: #666;
     font-weight: normal;
 }
 
-.vehicles .vehicles- .box .content p{
+.vehicles .vehicles- .box .content p {
     font-size: 15px;
     padding: 10px;
     padding-top: 10px;
     color: #666;
 }
 
-.vehicles .vehicles- .box .content p span{
+.vehicles .vehicles- .box .content p span {
     font-size: 10px;
     padding: 0 2px;
     color: var(--yellow);
 }
 
-.vehicles .vehicles- .box .content  .btnn{
+.vehicles .vehicles- .box .content .btnn {
     display: inline-block;
     margin-top: 1rem;
     border-radius: .5rem;
@@ -238,25 +239,26 @@ section{
     cursor: pointer;
     padding: .8rem 3rem;
 }
+
 /***************** Vehicles End *******************/
 
 
 /*********** Services Start *************/
 
-.services .box-container{
+.services .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 15px;
 }
 
-.services .box-container .box{
+.services .box-container .box {
     text-align: center;
     padding: 20px;
     border-radius: 30px;
     border: 1px solid;
 }
 
-.services .box-container .box .btnn{
+.services .box-container .box .btnn {
     display: inline-block;
     margin-top: 10px;
     border-radius: .5rem;
@@ -268,7 +270,7 @@ section{
     padding: .8rem 30px;
 }
 
-.services .box-container .box i{
+.services .box-container .box i {
     height: 60px;
     width: 60px;
     line-height: 60px;
@@ -278,37 +280,38 @@ section{
     margin-bottom: 10px;
 }
 
-.services .box-container .box h3{
+.services .box-container .box h3 {
     font-size: 25px;
 }
 
-.services .box-container .box p{
+.services .box-container .box p {
     font-size: 14px;
     color: #666;
 }
+
 /************* Services End *************/
 
 
 /*************** Car pArts Start ******************/
 
-.car-parts .parts-container{
+.car-parts .parts-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 15px;
 }
 
-.car-parts .parts-container .box{
+.car-parts .parts-container .box {
     padding: 20px;
     border: 1px solid;
 }
 
-.car-parts .parts-container .part img{
+.car-parts .parts-container .part img {
     width: 200px;
     height: 190px;
     margin-left: 140px;
 }
 
-.car-parts .parts-container .part .btnn{
+.car-parts .parts-container .part .btnn {
     display: inline-block;
     margin-top: 10px;
     background: var(--light-yellow);
@@ -320,26 +323,27 @@ section{
     margin-left: 160px;
 }
 
-.car-parts .parts-container .part h3{
+.car-parts .parts-container .part h3 {
     font-size: 25px;
     text-align: center;
 }
 
-.car-parts .parts-container .part p{
+.car-parts .parts-container .part p {
     color: var(--yellow);
     font-size: 20px;
     text-align: center;
 }
 
-.car-parts .heading{
+.car-parts .heading {
     margin-top: 50px;
 }
+
 /* Car pArts End */
 
 
 /* Footer Start */
 
-.footer .box-container{
+.footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
@@ -347,28 +351,29 @@ section{
     margin-left: 290px;
 }
 
-.footer{
+.footer {
     background: black;
     height: 250px;
 }
 
 
-.footer .box-container h3{
+.footer .box-container h3 {
     color: var(--yellow);
-    font-size: 25px;    
+    font-size: 25px;
     padding: 10px 0;
 }
 
-.footer .box-container a{
+.footer .box-container a {
     color: #fff;
     font-size: 16px;
     padding: 10px 0;
 }
 
-.footer .cr{
+.footer .cr {
     color: var(--yellow);
     font-size: 16px;
     text-align: center;
     margin-top: 55px;
 }
+
 /* Footer End */
